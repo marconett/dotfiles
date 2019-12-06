@@ -1,0 +1,56 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Inconsolata for Powerline",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.selectionHighlight": true,
+    "editor.occurrencesHighlight": false,
+    "workbench.colorTheme": "Base16 Dark Eighties",
+    // "workbench.statusBar.feedback.visible": false,
+    "trailing-spaces.trimOnSave": true,
+    "explorer.decorations.colors": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [{
+          "scope": "comment",
+          "settings": {
+              "fontStyle": ""
+          }
+      }]
+    },
+    "workbench.colorCustomizations": {
+      "editorIndentGuide.activeBackground": "#ffcc6680",
+      "editorIndentGuide.background": "#74736940",
+      "editor.selectionHighlightBorder": "#FFFA",
+    },
+    // "indentRainbow.includedLanguages": ["python", "yaml", "j2", "jinja", "saltstack", "sls"],
+    // "vim.disableAnnoyingNeovimMessage": true,
+    "vim.overrideCopy": false,
+    "vim.searchHighlightColor": "#71cfcf",
+    "vim.hlsearch": true,
+    "editor.scrollBeyondLastLine": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        {
+          "language": "vue",
+          "autoFix": true
+        },
+      ],
+      "git.autofetch": true,
+      "git.enableSmartCommit": true,
+      "eslint.packageManager": "yarn",
+      "editor.cursorBlinking": "phase",
+      "editor.lineHeight": 19,
+      "workbench.tree.renderIndentGuides": "always",
+      "files.exclude": {
+        "node_modules": true
+    },
+    "breadcrumbs.enabled": false
+}

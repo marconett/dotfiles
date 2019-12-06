@@ -1,0 +1,41 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontFamily: "Inconsolata For Powerline"
+    fontSize: 15
+  "exception-reporting":
+    userId: "12413703-675a-4487-b759-3a2f3a14ff5d"
+  "linter-ui-default":
+    showPanel: true
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-flow":
+      warnOnNotInstalled: false
+    "nuclide-home":
+      showHome: false
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "vim-mode-plus":
+    useClipboardAsDefaultRegister: false
+  welcome:
+    showOnStartup: false

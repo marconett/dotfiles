@@ -1,0 +1,6 @@
+source ~/.vimrc
+set surround
+let mapleader = "<Space>"
+nnoremap gcc :action CommentByLineComment<cr>
+nnoremap <leader>2 :action NextTab<cr>
+nnoremap <leader>1 :action PreviousTab<cr>

@@ -1,0 +1,10 @@
+{
+  // Show the error list after save.
+  "phpcs_show_errors_on_save": false,
+
+  // Show outline for errors
+  "phpcs_outline_for_errors": false,
+
+  "php_cs_fixer_on_save": false,
+  "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+}

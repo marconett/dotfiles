@@ -1,0 +1,59 @@
+[user]
+	name = Marco Nett
+	email = mail@marco-nett.de
+	signingkey = 24C025344F4897DB
+[color]
+	ui = true
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	pushNonFastForward = false
+[alias]
+	## Spellings
+	ad = add
+	ass = add
+	dff = diff
+        dff = diff
+        duff = diff
+	idff = diff
+        digg = diff
+	mregetool = mergetool
+	puhs = push
+	puosh = push
+	pus = push
+        oush = push
+        tpush = push
+	satsh = stash
+        oull = pull
+	tpull = pull
+        pul = pull
+        satus = status
+        satis = status
+        statis = status
+        olg = log
+        cone = clone
+        cline = clone
+        commi = commit
+        commuit = commit
+        chekout = checkout
+        chekcout = checkout
+        chekocut = checkout
+        chekouct = checkout
+        checkot = checkout
+        stauts = status
+        sttaus = status
+        satus = status
+        sattus = status
+        statu = status
+        statisu = status
+        statsu = status
+        stasu = status
+        lgo = log
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[commit]
+	gpgsign = true

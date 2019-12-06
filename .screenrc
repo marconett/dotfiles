@@ -1,0 +1,34 @@
+multiuser on
+startup_message off
+
+# huge scrollback buffer
+defscrollback 30000
+
+# statusbar
+caption always "%{=u .d} %-w%<%{=ub .B}%n %t%{=u .d}%+w "
+hardstatus alwaysignore
+hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y %M %d(%D) %{= .m} %C %A"
+
+# allow bold colors - necessary for some reason
+attrcolor b ".I"
+attrcolor i "+b"
+
+# clear the screen when close the programs
+altscreen on
+
+# erase background with current bg color
+defbce on
+
+# utf8 encoding
+defutf8 on
+
+# terminal colors
+termcapinfo xterm "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+termcapinfo xterm-color "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+term xterm-256color
+
+# start with 1 as first screen
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1

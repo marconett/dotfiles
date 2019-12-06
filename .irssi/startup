@@ -1,0 +1,7 @@
+/format awl_display_key_active %P[%w $Q:$H$C$S%P ]%n
+/format awl_display_nokey_active %P[%w $Q:$H$C$S%P ]%n
+/format awl_display_key %k[ $Q:$H$C$S ]%n
+/format awl_display_nokey %k[ $N: $H$C$S ]%n
+/format awl_display_header 0
+/set fancy_abbrev head
+/set awl_block 20
